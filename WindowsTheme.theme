@@ -1,0 +1,55 @@
+; Copyright © Microsoft Corp.
+
+[Theme]
+DisplayName=Custom Dark Theme
+
+[Control Panel\Desktop]
+Wallpaper=
+TileWallpaper=0
+WallpaperStyle=10
+Pattern=
+
+[VisualStyles]
+Path=%SystemRoot%\Resources\Themes\Aero\aero.msstyles
+ColorStyle=NormalColor
+Size=NormalSize
+AutoColorization=0
+ColorizationColor=0XFF000000
+SystemMode=Dark
+AppMode=Dark
+
+[MasterThemeSelector]
+MTSM=RJSPBS
+
+[Control Panel\Colors]
+ActiveBorder=45 45 45
+ActiveTitle=45 45 45
+AppWorkspace=45 45 45
+Background=30 30 30
+ButtonAlternateFace=192 192 192
+ButtonDkShadow=45 45 45
+ButtonFace=180 180 180
+ButtonHilight=225 225 225
+ButtonLight=225 225 225
+ButtonShadow=128 128 128
+ButtonText=60 60 60
+GradientActiveTitle=192 192 192
+GradientInactiveTitle=128 128 128
+GrayText=128 128 128
+Hilight=79 79 79
+HilightText=252 252 252
+HotTrackingColor=220 220 220
+InactiveBorder=45 45 45
+InactiveTitle=45 45 45
+InactiveTitleText=192 192 192
+InfoText=220 220 220
+InfoWindow=45 45 45
+Menu=45 45 45
+MenuBar=45 45 45
+MenuHilight=128 128 128
+MenuText=230 230 230
+Scrollbar=45 45 45
+TitleText=220 220 220
+Window=225 225 225
+WindowFrame=15 15 15
+WindowText=60 60 60

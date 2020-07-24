@@ -1,0 +1,25 @@
+{
+	"copyOnSelect":true,
+	"keybindings": [
+		{
+			"command": "newTab",
+			"keys": "ctrl+t"
+		},
+		{
+			"command": {
+				"action": "splitPane",
+				"split": "auto",
+				"splitMode": "duplicate"
+			},
+			"keys": "ctrl+shift+t"
+		},
+		{
+			"command": "closePane",
+			"keys": "ctrl+w"
+		},
+		{
+			"command": "find",
+			"keys": "ctrl+f"
+		}
+	]
+}
