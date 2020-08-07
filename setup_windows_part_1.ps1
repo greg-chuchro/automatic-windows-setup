@@ -8,6 +8,7 @@ $batchCommand = "powershell -ExecutionPolicy Bypass -File ""$currentPath\run_as_
 Set-ItemProperty $key AutomaticWindowsSetup $batchCommand
 
 dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
+dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
 
 echo "restart PC to continue"
 Restart-Computer -Confirm

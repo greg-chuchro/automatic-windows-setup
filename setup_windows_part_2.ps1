@@ -15,6 +15,7 @@ regedit /s WindowsTheme.reg
 Invoke-Expression .\fix_start_menu_tile_accent.ps1
 Start-Process "$env:WINDIR\system32\SystemPropertiesPerformance.exe"
 
+Invoke-Expression .\update_wsl.ps1
 Invoke-Expression .\install_winget.ps1
 winget install --exact --id Canonical.Ubuntu
 winget install --exact --id Microsoft.WindowsTerminal
@@ -34,4 +35,4 @@ Invoke-Expression .\fix_visualstudio_newline_settings.ps1
 
 Invoke-Expression $webClient.DownloadString('https://chocolatey.org/install.ps1')
 
-wsl.exe ./setup_linux.sh
+. (where.exe ubuntu*.exe) run "./setup_linux.sh"
