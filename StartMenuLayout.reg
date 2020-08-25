@@ -1,6 +1,5 @@
 Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows\Explorer]
-; "LockedStartLayout"=dword:00000001
-"StartLayoutFile"="C:\\Users\\ghbvft6\\AppData\\Local\\Microsoft\\Windows\\Shell\\LayoutModification.xml"
-
+; "LockedStartLayout"=dword:00000000
+"StartLayoutFile"="%LocalAppData%\\Microsoft\\Windows\\Shell\\LayoutModification.xml"
