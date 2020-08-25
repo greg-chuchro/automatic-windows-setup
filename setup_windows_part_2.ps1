@@ -36,3 +36,6 @@ Invoke-Expression .\fix_visualstudio_newline_settings.ps1
 Invoke-Expression $webClient.DownloadString('https://chocolatey.org/install.ps1')
 
 . (where.exe ubuntu*.exe) run "./setup_linux.sh"
+
+regedit /s RDP.reg
+Enable-NetFirewallRule -DisplayGroup "Remote Desktop"
