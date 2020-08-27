@@ -39,3 +39,4 @@ Invoke-Expression $webClient.DownloadString('https://chocolatey.org/install.ps1'
 
 regedit /s RDP.reg
 Enable-NetFirewallRule -DisplayGroup "Remote Desktop"
+Invoke-Expression .\mount_wsl_drive.ps1
