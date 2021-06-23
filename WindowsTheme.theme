@@ -1,55 +1,56 @@
-; Copyright � Microsoft Corp.
+; Copyright © Microsoft Corp.
 
 [Theme]
 DisplayName=Custom Dark Theme
 
 [Control Panel\Desktop]
 Wallpaper=
-TileWallpaper=0
-WallpaperStyle=10
 Pattern=
+MultimonBackgrounds=0
+PicturePosition=4
 
 [VisualStyles]
-Path=%SystemRoot%\Resources\Themes\Aero\aero.msstyles
+Path=%SystemRoot%\resources\themes\Aero\Aero.msstyles
 ColorStyle=NormalColor
 Size=NormalSize
 AutoColorization=0
-ColorizationColor=0XFF000000
+ColorizationColor=0XFF686868
 SystemMode=Dark
 AppMode=Dark
+VisualStyleVersion=10
 
 [MasterThemeSelector]
 MTSM=RJSPBS
 
 [Control Panel\Colors]
-ActiveBorder=45 45 45
-ActiveTitle=45 45 45
-AppWorkspace=45 45 45
-Background=30 30 30
-ButtonAlternateFace=192 192 192
-ButtonDkShadow=45 45 45
-ButtonFace=180 180 180
-ButtonHilight=225 225 225
-ButtonLight=225 225 225
-ButtonShadow=128 128 128
-ButtonText=60 60 60
-GradientActiveTitle=192 192 192
-GradientInactiveTitle=128 128 128
-GrayText=128 128 128
-Hilight=79 79 79
-HilightText=252 252 252
-HotTrackingColor=220 220 220
-InactiveBorder=45 45 45
-InactiveTitle=45 45 45
-InactiveTitleText=192 192 192
-InfoText=220 220 220
-InfoWindow=45 45 45
-Menu=45 45 45
-MenuBar=45 45 45
-MenuHilight=128 128 128
-MenuText=230 230 230
-Scrollbar=45 45 45
-TitleText=220 220 220
-Window=225 225 225
-WindowFrame=15 15 15
-WindowText=60 60 60
+Scrollbar=200 200 200
+Background=20 20 20
+ActiveTitle=153 180 209
+InactiveTitle=191 205 219
+Menu=240 240 240
+Window=220 220 220
+WindowFrame=100 100 100
+MenuText=0 0 0
+WindowText=0 0 0
+TitleText=0 0 0
+ActiveBorder=180 180 180
+InactiveBorder=244 247 252
+AppWorkspace=171 171 171
+Hilight=120 120 120
+HilightText=255 255 255
+ButtonFace=240 240 240
+ButtonShadow=160 160 160
+GrayText=109 109 109
+ButtonText=0 0 0
+InactiveTitleText=0 0 0
+ButtonHilight=255 255 255
+ButtonDkShadow=105 105 105
+ButtonLight=227 227 227
+InfoText=0 0 0
+InfoWindow=255 255 225
+ButtonAlternateFace=0 0 0
+HotTrackingColor=0 102 204
+GradientActiveTitle=185 209 234
+GradientInactiveTitle=215 228 242
+MenuHilight=0 120 215
+MenuBar=240 240 240
