@@ -1,3 +1,4 @@
-ghPackageUrl=$(curl -sL https://api.github.com/repos/cli/cli/releases/latest | sed -n '/browser_download_url/p' | sed -n 's/.*\(http.*linux_amd64.deb\).*/\1/p')
-wget $ghPackageUrl -O gh_linux_amd64.deb
-sudo apt install --yes ./gh_linux_amd64.deb
+sudo apt-key adv --yes --keyserver keyserver.ubuntu.com --recv-key C99B11DEB97541F0
+sudo apt-add-repository https://cli.github.com/packages
+sudo apt update
+sudo apt install gh
