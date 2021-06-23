@@ -38,5 +38,6 @@ Invoke-Expression $webClient.DownloadString('https://chocolatey.org/install.ps1'
 . (where.exe ubuntu*.exe) run "./setup_linux.sh"
 
 regedit /s RDP.reg
+regedit /s GameDVR.reg
 Enable-NetFirewallRule -DisplayGroup "Remote Desktop"
 Invoke-Expression .\mount_wsl_drive.ps1
